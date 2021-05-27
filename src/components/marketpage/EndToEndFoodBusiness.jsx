@@ -57,39 +57,41 @@ export default class EndToEndFoodBusiness extends PureComponent {
             </button>
           </form>
         </div>
-        <div class="row justify-content-center mt-4 mb-4">
-          <div class="col-md-3 col-xs-10 p-4">
-            <img alt="icon" src={tick} style={{ width: "50px" }} />{" "}
-            <h6 style={{ display: "inline" }}>Recipe & Menu Engineering</h6>
-            <br />
-          </div>
-          <div class="col-md-3 col-xs-10 p-4">
-            <img alt="icon" src={tick} style={{ width: "50px" }} />{" "}
-            <h6 style={{ display: "inline" }}> Manufacturing Technology</h6>
-            <br />
-          </div>
-          <div class="col-md-3 col-xs-10 p-4">
-            <img alt="icon" src={tick} style={{ width: "50px" }} />{" "}
-            <h6 style={{ display: "inline" }}>Sales & Marketing Platform</h6>
-            <br />
-          </div>
-          <div class="row justify-content-center">
+        <div className="container">
+          <div class="row justify-content-center mt-4 mb-4">
             <div class="col-md-3 col-xs-10 p-4">
               <img alt="icon" src={tick} style={{ width: "50px" }} />{" "}
-              <h6 style={{ display: "inline" }}>
-                Delivery & Packaging Integrations
-              </h6>
+              <h6 style={{ display: "inline" }}>Recipe & Menu Engineering</h6>
               <br />
             </div>
             <div class="col-md-3 col-xs-10 p-4">
-              <img alt="icon" src={tick} style={{ width: "50px" }} />
-              <h6 style={{ display: "inline" }}>Inventory Management</h6>
+              <img alt="icon" src={tick} style={{ width: "50px" }} />{" "}
+              <h6 style={{ display: "inline" }}> Manufacturing Technology</h6>
               <br />
             </div>
             <div class="col-md-3 col-xs-10 p-4">
-              <img alt="icon" src={tick} style={{ width: "50px" }} />
-              <h6 style={{ display: "inline" }}> Analytics</h6>
+              <img alt="icon" src={tick} style={{ width: "50px" }} />{" "}
+              <h6 style={{ display: "inline" }}>Sales & Marketing Platform</h6>
               <br />
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-md-3 col-xs-10 p-4">
+                <img alt="icon" src={tick} style={{ width: "50px" }} />{" "}
+                <h6 style={{ display: "inline" }}>
+                  Delivery & Packaging Integrations
+                </h6>
+                <br />
+              </div>
+              <div class="col-md-3 col-xs-10 p-4">
+                <img alt="icon" src={tick} style={{ width: "50px" }} />
+                <h6 style={{ display: "inline" }}>Inventory Management</h6>
+                <br />
+              </div>
+              <div class="col-md-3 col-xs-10 p-4">
+                <img alt="icon" src={tick} style={{ width: "50px" }} />
+                <h6 style={{ display: "inline" }}> Analytics</h6>
+                <br />
+              </div>
             </div>
           </div>
         </div>
