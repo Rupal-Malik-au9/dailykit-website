@@ -13,7 +13,25 @@ export default class Weservepage extends PureComponent {
     return (
       <div style={{ marginTop: "12rem" }}>
         <Navbar />
-        <Makethejuice />
+        <Makethejuice
+          subheading={"One-Stop Shop"}
+          heading={"Make The Juice Worth The Squeeze"}
+          image={
+            "https://www.dailykit.org/hubfs/dailykit-assets/Lob-hero@2x.png"
+          }
+          button1text={"Schedule A Call"}
+          button2text={"Learn More"}
+          button1link={"/"}
+          button2link={"/"}
+          smallimage={
+            "https://www.dailykit.org/hubfs/osaas/images/icons/chat-icon.png"
+          }
+          smallheading={"Minimum Added Revenue"}
+          smallsubheading={"$100000"}
+          para={
+            "Blend Best Business Practices To Help Your Food Business Maximize Sustainability & Growth"
+          }
+        />
         <Weserve />
         <OptimizeKitchen />
         <BannerSection10
