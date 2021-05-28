@@ -1,4 +1,5 @@
 import React, { PureComponent } from "react";
+import Form from "../homepage/Form";
 
 export default class BannerSection3 extends PureComponent {
   render() {
@@ -40,28 +41,7 @@ export default class BannerSection3 extends PureComponent {
                 </p>
               )}
               <div className="justify-content-center">
-                {this.props.blackbuttontext && (
-                  <form>
-                    <input
-                      type="email"
-                      class="form-control"
-                      id="exampleInputEmail1"
-                      aria-describedby="emailHelp"
-                      placeholder="Enter your Valid Email Address"
-                      style={{
-                        width: "20rem",
-                        height: "3.29rem",
-                        display: "inline",
-                        background: "#E6F8FC",
-                      }}
-                    />
-
-                    <button type="button" class="btn-style-thirteen black">
-                      {this.props.blackbuttontext}
-                    </button>
-                  </form>
-                )}
-                {this.props.button2 && (
+                {this.props.button2 ? (
                   <div className="justify-content-center mb-4">
                     <button type="button" class="btn-style-thirteen black">
                       {this.props.button2[0]}
@@ -70,6 +50,13 @@ export default class BannerSection3 extends PureComponent {
                     <button type="button" class="btn-style-thirteen white">
                       {this.props.button2[1]}
                     </button>
+                  </div>
+                ) : (
+                  <div class="form-banner">
+                    <Form
+                      dataAccount={"3161173:g2o5g2c3i8"}
+                      dataForm={"4175542:d4z0s3"}
+                    />
                   </div>
                 )}
               </div>

@@ -1,5 +1,6 @@
 import React, { PureComponent } from "react";
 import "../../style.css";
+import Form from "./Form";
 export default class PricingSection1 extends PureComponent {
   render() {
     return (
@@ -22,54 +23,10 @@ export default class PricingSection1 extends PureComponent {
               );
             })}
           </div>
-          <div className="justify-content-center">
-            <h1
-              style={{
-                fontWeight: "bolder",
-                fontSize: "1.5rem",
-                fontFamily: "'Nunito', sans-serif",
-                letterSpacing: "1.5px",
-                textAlign: "center",
-                margin: "4rem 0rem 0.7rem 0rem",
-                color: "#113D63",
-              }}
-            >
-              Sign up Now
-            </h1>
-            <h1
-              style={{
-                fontWeight: "bolder",
-                fontSize: "1.5rem",
-                fontFamily: "'Nunito', sans-serif",
-                letterSpacing: "1.5px",
-                textAlign: "center",
-                margin: "0rem 0rem 2rem 0rem",
-                color: "#113D63",
-              }}
-            >
-              To start now, get in touch
-            </h1>
-            <form>
-              <input
-                type="email"
-                class="form-control"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
-                placeholder="Enter your Valid Email Address"
-              />
-              <button
-                type="button"
-                style={{
-                  fontSize: "14px",
-                  width: "150px",
-                  marginTop: "2rem",
-                }}
-                class="btn btn-dark btn-lg p-3 pl-4 pr-4"
-              >
-                Start Now
-              </button>
-            </form>
-          </div>
+          <Form
+            dataAccount={"3161173:g2o5g2c3i8"}
+            dataForm={"4175542:d4z0s3"}
+          />
         </div>
       </div>
     );

@@ -22,21 +22,15 @@ export default class ScheduleMeetingSection1 extends PureComponent {
           <div class="col-md-7 col-xs-10 nunito">
             <div class="row justify-content-center text-center">
               <div class="col-md-8 col-xs-10">
-                <img
-                  src={this.props.image}
-                  alt="map"
-                  style={{ maxWidth: "100%" }}
-                />
                 <br />
-                <h5>
-                  <strong>{this.props.imagebelowline}</strong>
-                </h5>
+                <div
+                  class="calendly-inline-widget"
+                  data-url="https://calendly.com/dailykit/15min"
+                  style={{ minWidth: "320px", height: "630px" }}
+                ></div>
+
                 <small>
-                  {this.props.contactline}
                   <br /> <br />
-                  <a href={this.props.emaillink} alt="mail">
-                    {this.props.emailline}
-                  </a>
                 </small>
               </div>
             </div>

@@ -1,5 +1,6 @@
 import React, { PureComponent } from "react";
 import tick from "../../tick.PNG";
+import Form from "../homepage/Form";
 
 export default class EndToEndFoodBusiness extends PureComponent {
   render() {
@@ -29,33 +30,12 @@ export default class EndToEndFoodBusiness extends PureComponent {
           <br /> Like This Before
         </h2>
         <div className="justify-content-center">
-          <form>
-            <input
-              type="email"
-              class="form-control inputbox"
-              id="exampleInputEmail1"
-              aria-describedby="emailHelp"
-              placeholder="Enter your Valid Email Address"
-              style={{
-                width: "20rem",
-                height: "3.29rem",
-                display: "inline",
-                background: "#E6F8FC",
-              }}
+          <div class="form-banner">
+            <Form
+              dataAccount={"3161173:g2o5g2c3i8"}
+              dataForm={"4175542:d4z0s3"}
             />
-            <button
-              type="button"
-              style={{
-                fontSize: "14px",
-                width: "150px",
-                background: "#8ac03b",
-                color: "white",
-              }}
-              class="btn btn-lg p-3 pl-4 pr-4 form-button"
-            >
-              Start Now
-            </button>
-          </form>
+          </div>
         </div>
         <div class="container">
           <div class="row justify-content-center mt-4 mb-4">

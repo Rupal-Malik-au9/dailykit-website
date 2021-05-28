@@ -1278,3 +1278,8 @@ banner-section1-description > ul,
     margin-top: 1rem;
   }
 }
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .form-banner {
+    margin-left: -3rem;
+  }
+}
