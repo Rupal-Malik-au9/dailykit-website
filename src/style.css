@@ -196,10 +196,17 @@ small {
   font-size: 17px;
   line-height: 1.8rem;
 }
-
+.footer_section li>a,.footer_section p>a{
+  text-decoration: none;
+  color:#113d63
+}
 .flex-container > .footer_section > li {
   line-height: 2.5rem;
   cursor: pointer;
+}
+.footer_section li>a:hover,.footer_section p>a:hover{
+  text-decoration: none;
+  color: orange;
 }
 .flex-container > .footer_section > li:hover {
   color: orange;
@@ -209,6 +216,7 @@ small {
   font-weight: 700;
   list-style: none;
 }
+
 .footer_section h3 {
   color: #113d63;
   font-family: "Nunito", sans-serif;
@@ -1234,6 +1242,9 @@ banner-section1-description > ul,
   right:110px;
   z-index: 3;
 }
+.sidebar-contactus {
+  display: none;
+}
 @media only screen and (max-width: 479px) {
   .image-section-1,
   .whychoose-container2 {
@@ -1302,14 +1313,18 @@ banner-section1-description > ul,
   .startAMealVideo {
     width: 100%;
   }
+
+  .sidebar-contactus{
+    position:fixed;
+    top:200px;
+    right:-40px;
+  }
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
   .form-banner {
     margin-left: -3rem;
   }
-  .sidebar-contactus {
-    display: none;
-  }
+  
 }
 
