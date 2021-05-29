@@ -1223,6 +1223,17 @@ banner-section1-description > ul,
   margin-top: 1.5rem;
   padding: 2rem 0rem 6rem 0rem;
 }
+.startAMealVideo {
+  width: 616px;
+  height: 303px;
+}
+
+.inner-form{
+  position: fixed;
+  top:200px;
+  right:110px;
+  z-index: 3;
+}
 @media only screen and (max-width: 479px) {
   .image-section-1,
   .whychoose-container2 {
@@ -1277,9 +1288,28 @@ banner-section1-description > ul,
   .mt-8 {
     margin-top: 1rem;
   }
+  .sidebar-contactus {
+    float: right;
+    display: block;
+    transform: rotate(-90deg);
+  }
+  .form-display {
+    display: none;
+  }
+  .startAMealImage {
+    width: 100%;
+  }
+  .startAMealVideo {
+    width: 100%;
+  }
 }
+
 @media (min-width: 1025px) and (max-width: 1280px) {
   .form-banner {
     margin-left: -3rem;
   }
+  .sidebar-contactus {
+    display: none;
+  }
 }
+

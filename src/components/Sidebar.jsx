@@ -38,18 +38,18 @@ const Sidebar = (props) => {
                 </>
               );
             })}
-            {props.videourl && (
+{props.videourl && (
               <iframe
-                width="100%"
                 src={props.videourl}
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
+                class="startAMealVideo"
               ></iframe>
             )}
             {props.imageurl && (
-              <img src={props.imageurl} style={{ width: "100%" }} alt="..." />
+              <img src={props.imageurl} class="startAMealImage" alt="..." />
             )}
             {/* <--first Para--> */}
             {props.rest[0].para2.map((para) => {
@@ -66,9 +66,9 @@ const Sidebar = (props) => {
             })}
           </p>
         </div>
-        <div className="col-md-3 col-xs-10">
+        <div className="col-md-3 col-xs-10 form-display">
           <div
-            class="ml-form-embed sticky-top"
+            class="ml-form-embed inner-form"
             data-account="3161173:g2o5g2c3i8"
             data-form="4175704:a4w7j9"
           ></div>
