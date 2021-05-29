@@ -3,7 +3,18 @@ const SmallPara = (props) => {
   return props.smallPara.map((smallPara) => {
     return (
       <>
-        {smallPara}
+        {smallPara.description ? (
+          <>
+            {smallPara.description}
+            <img
+              src={smallPara.image}
+              alt="smallParaImage"
+              class="startAMealImage"
+            />
+          </>
+        ) : (
+          smallPara
+        )}
         <br />
         <br />
       </>
