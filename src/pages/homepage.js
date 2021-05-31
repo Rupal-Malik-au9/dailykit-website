@@ -219,7 +219,7 @@ export default class Homepage extends PureComponent {
             "We offer very attractive incentives to anyone who wishes to Resellour platform to prospective clients anywhere in the world Click on the button below to talk to us about this opputunity."
           }
           blackbuttontext={"Schedule A meeting"}
-          buttonlink={"/"}
+          buttonlink={"/#scheduleDemo"}
         />
 
         <ScheduleMeetingSection1
