@@ -1,5 +1,6 @@
 import React, { PureComponent } from "react";
 import "../../style.css";
+import ContactFormSection2 from "./ContactFormSection2";
 
 export default class BannerSection1 extends PureComponent {
   render() {
@@ -62,11 +63,20 @@ export default class BannerSection1 extends PureComponent {
             </div>
             <h2>{this.props.heading && this.props.heading}</h2>
             <br />
-            <a href="/enterprise/meal-kit-startups">
-              <button type="button" className="btn-style-thirteen green">
+            <a>
+              <button
+                type="button"
+                className="btn-style-thirteen green"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
                 {this.props.buttontext && this.props.buttontext}
               </button>
             </a>
+            <ContactFormSection2
+              dataAccount={this.props.dataAccount}
+              dataForm={this.props.dataForm}
+            />
           </div>
         </div>
       </div>

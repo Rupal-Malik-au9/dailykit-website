@@ -56,6 +56,8 @@ export default class Homepage extends PureComponent {
           heading={"Sell Everything With EveryWARE"}
           subheading={"Trend-Responsive Demand Platform"}
           buttontext={"TELL ME MORE"}
+          dataAccount="3161173:g2o5g2c3i8"
+          dataForm={"4175704:a4w7j9"}
         />
         <CategoriesSection
           list={[

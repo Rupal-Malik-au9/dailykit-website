@@ -1,6 +1,6 @@
 import React, { PureComponent } from "react";
 import "../../style.css";
-import Form from "./Form";
+import TrialForm from "../shared/TrialForm";
 export default class PricingSection1 extends PureComponent {
   render() {
     return (
@@ -23,7 +23,7 @@ export default class PricingSection1 extends PureComponent {
               );
             })}
           </div>
-          <Form
+          <TrialForm
             dataAccount={"3161173:g2o5g2c3i8"}
             dataForm={"4175542:d4z0s3"}
           />

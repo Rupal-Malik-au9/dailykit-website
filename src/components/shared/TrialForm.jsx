@@ -1,6 +1,6 @@
 import React, { PureComponent } from "react";
 
-export default class Form extends PureComponent {
+export default class TrialForm extends PureComponent {
   render() {
     return (
       <div class="container mt-4">

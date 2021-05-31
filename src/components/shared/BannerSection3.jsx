@@ -1,5 +1,5 @@
 import React, { PureComponent } from "react";
-import Form from "../homepage/Form";
+import TrialForm from "./TrialForm";
 
 export default class BannerSection3 extends PureComponent {
   render() {
@@ -53,7 +53,7 @@ export default class BannerSection3 extends PureComponent {
                   </div>
                 ) : (
                   <div class="form-banner">
-                    <Form
+                    <TrialForm
                       dataAccount={"3161173:g2o5g2c3i8"}
                       dataForm={"4175542:d4z0s3"}
                     />

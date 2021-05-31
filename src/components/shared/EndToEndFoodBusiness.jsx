@@ -1,6 +1,6 @@
 import React, { PureComponent } from "react";
 import tick from "../../tick.PNG";
-import Form from "../homepage/Form";
+import TrialForm from "./TrialForm";
 
 export default class EndToEndFoodBusiness extends PureComponent {
   render() {
@@ -30,7 +30,7 @@ export default class EndToEndFoodBusiness extends PureComponent {
         </h2>
         <div className="justify-content-center">
           <div class="form-banner">
-            <Form
+            <TrialForm
               dataAccount={this.props.dataAccount}
               dataForm={this.props.dataForm}
             />
