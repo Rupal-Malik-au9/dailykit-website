@@ -31,6 +31,8 @@ export default class Weservepage extends PureComponent {
           para={
             "Blend Best Business Practices To Help Your Food Business Maximize Sustainability & Growth"
           }
+          dataAccount="3161173:g2o5g2c3i8"
+          dataForm="4175704:a4w7j9"
         />
         <Weserve />
         <OptimizeKitchen

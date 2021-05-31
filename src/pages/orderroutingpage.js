@@ -36,6 +36,8 @@ export default class Orderroutingpage extends PureComponent {
           col2para={
             "No KDS? No problem! Print receipts with precise job instructions."
           }
+          dataAccount="3161173:g2o5g2c3i8"
+          dataForm="4175704:a4w7j9"
         />
 
         <Digitalise />
@@ -53,6 +55,8 @@ export default class Orderroutingpage extends PureComponent {
             "For on-demand ordering it is best to assign priority to each received order and pack & assemble them according to their expected dispatch time."
           }
           learn={"one"}
+          dataAccount="3161173:g2o5g2c3i8"
+          dataForm="4175704:a4w7j9"
         />
         <BannerSection8
           heading={"How It Works for Meal Kits"}

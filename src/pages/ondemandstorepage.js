@@ -75,8 +75,6 @@ export default class OnDemandStorepage extends PureComponent {
           leftimage={
             "https://www.dailykit.org/hubfs/dailykit-assets/own-store/Themes%20and%20brand%20colors.png"
           }
-          blackbuttontext={"TELL ME MORE"}
-          buttonlink={"/"}
         />
         <SpecialBanner5
           heading={"Why Choose DailyKIT"}

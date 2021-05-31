@@ -1,4 +1,5 @@
 import React, { PureComponent } from "react";
+import ContactFormSection2 from "../shared/ContactFormSection2";
 
 export default class SpecialBanner4 extends PureComponent {
   render() {
@@ -38,9 +39,15 @@ export default class SpecialBanner4 extends PureComponent {
           type="button"
           className="btn-style-thirteen green"
           style={{ margin: "1rem 30% 1rem 30%" }}
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
         >
           TELL ME MORE
         </button>
+        <ContactFormSection2
+          dataAccount={this.props.dataAccount}
+          dataForm={this.props.dataForm}
+        />
       </>
     );
   }

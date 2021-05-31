@@ -1,4 +1,5 @@
 import React, { PureComponent } from "react";
+import ContactFormSection2 from "../shared/ContactFormSection2";
 
 export default class Makethejuice extends PureComponent {
   render() {
@@ -40,12 +41,19 @@ export default class Makethejuice extends PureComponent {
                   </button>
                 </a>
                 &nbsp;&nbsp;&nbsp;
-                <a href={this.props.button2link}>
-                  <button type="button" className="weserve_button2">
-                    {this.props.button2text}
-                  </button>
-                </a>
+                <button
+                  type="button"
+                  className="weserve_button2"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  {this.props.button2text}
+                </button>
               </div>
+              <ContactFormSection2
+                dataAccount={this.props.dataAccount}
+                dataForm={this.props.dataForm}
+              />
               <div class="row" style={{ paddingTop: "1rem" }}>
                 <div class="col-md-3 col-xs-10">
                   {" "}

@@ -59,6 +59,8 @@ export default class Orderdashboardpage extends PureComponent {
             "Inventory Usage",
           ]}
           image={["imagebox5", "imagebox6", "imagebox7"]}
+          dataAccount="3161173:g2o5g2c3i8"
+          dataForm="4175704:a4w7j9"
         />
         <EndToEndFoodBusiness
           subheading={"An End-To-End Food Business Software Solution Provider"}

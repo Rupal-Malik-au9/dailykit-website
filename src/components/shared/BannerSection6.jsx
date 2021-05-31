@@ -1,5 +1,6 @@
 import React, { PureComponent } from "react";
 import "../../style.css";
+import ContactFormSection2 from "./ContactFormSection2";
 export default class BannerSection6 extends PureComponent {
   render() {
     return (
@@ -41,18 +42,24 @@ export default class BannerSection6 extends PureComponent {
                   );
                 })}
                 {this.props.buttonlink && (
-                  <a href={this.props.buttonlink}>
+                  <>
                     {this.props.greenbuttontext && (
                       <button
                         type="button"
                         className="btn-style-thirteen green"
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModal"
                       >
                         {this.props.greenbuttontext}
                       </button>
                     )}
-                  </a>
+                  </>
                 )}
               </p>
+              <ContactFormSection2
+                dataAccount={this.props.dataAccount}
+                dataForm={this.props.dataForm}
+              />
             </div>
             {this.props.rightImage && (
               <div class="col-md-5 col-xs-10">

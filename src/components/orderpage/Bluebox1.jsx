@@ -2,6 +2,7 @@ import React, { PureComponent } from "react";
 import "../../style.css";
 import phone from "../../assets/phone.svg";
 import corrugatedBox from "../../assets/corrugatedBox.svg";
+import ContactFormSection2 from "../shared/ContactFormSection2";
 export default class Bluebox1 extends PureComponent {
   render() {
     return (
@@ -69,16 +70,15 @@ export default class Bluebox1 extends PureComponent {
                 </div>
               )}
               {!this.props.learn && (
-                <a href="/">
-                  {" "}
-                  <button
-                    type="button"
-                    className="learMore_button2 btn-style-thirteen green mt-4 mb-4"
-                    style={{ marginRight: "120px" }}
-                  >
-                    Learn More
-                  </button>
-                </a>
+                <button
+                  type="button"
+                  className="learMore_button2 btn-style-thirteen green mt-4 mb-4"
+                  style={{ marginRight: "120px" }}
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Learn More
+                </button>
               )}
             </div>
             <div class="col-1 blackline2"></div>
@@ -139,29 +139,31 @@ export default class Bluebox1 extends PureComponent {
                 )}
               </div>{" "}
               {!this.props.learn && (
-                <a href="/">
-                  {" "}
-                  <button
-                    type="button"
-                    className="btn-style-thirteen green mt-4 learn bluebox-learnMore"
-                  >
-                    Learn More
-                  </button>
-                </a>
+                <button
+                  type="button"
+                  className="btn-style-thirteen green mt-4 learn bluebox-learnMore"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Learn More
+                </button>
               )}
-            </div>{" "}
-          </div>{" "}
+            </div>
+          </div>
           {this.props.learn && (
-            <a href="/">
-              {" "}
-              <button
-                type="button"
-                className="btn-style-thirteen green mt-4 mb-4"
-              >
-                Learn More
-              </button>
-            </a>
+            <button
+              type="button"
+              className="btn-style-thirteen green mt-4 mb-4"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              Learn More
+            </button>
           )}
+          <ContactFormSection2
+            dataAccount={this.props.dataAccount}
+            dataForm={this.props.dataForm}
+          />
         </div>
       </div>
     );

@@ -46,6 +46,8 @@ export default class MenuManagementpage extends PureComponent {
           leftImage={
             "https://www.dailykit.org/hubfs/dailykit-assets/menu/give-life-to-your-menu2.gif"
           }
+          dataAccount={"3161173:g2o5g2c3i8"}
+          dataForm={"4175542:d4z0s3"}
         />
         <Bluebox3
           heading={"Menu Management vs Menu Engineering"}
@@ -69,6 +71,8 @@ export default class MenuManagementpage extends PureComponent {
           rightImage={
             "https://www.dailykit.org/hubfs/dailykit-assets/menu/Food-cost.png"
           }
+          dataAccount={"3161173:g2o5g2c3i8"}
+          dataForm={"4175542:d4z0s3"}
         />
         <BannerSection6
           greenbuttontext={"Learn More"}
@@ -80,6 +84,8 @@ export default class MenuManagementpage extends PureComponent {
           rightImage={
             "https://www.dailykit.org/hubfs/dailykit-assets/menu/product-pricing.png"
           }
+          dataAccount={"3161173:g2o5g2c3i8"}
+          dataForm={"4175542:d4z0s3"}
         />
         <BannerSection6
           greenbuttontext={"Schedule A Meeting"}
@@ -93,6 +99,8 @@ export default class MenuManagementpage extends PureComponent {
             "https://www.dailykit.org/hubfs/dailykit-assets/menu/automation.png"
           }
           buttontext={"Schedule A Meeting"}
+          dataAccount={"3161173:g2o5g2c3i8"}
+          dataForm={"4175542:d4z0s3"}
         />
         <ScheduleMeetingSection1
           heading={"Schedule an E-Meeting"}

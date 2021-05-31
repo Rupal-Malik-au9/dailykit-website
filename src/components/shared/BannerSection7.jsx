@@ -1,5 +1,6 @@
 import React, { PureComponent } from "react";
 import "../../style.css";
+import ContactFormSection2 from "./ContactFormSection2";
 export default class BannerSection7 extends PureComponent {
   render() {
     return (
@@ -8,16 +9,19 @@ export default class BannerSection7 extends PureComponent {
         <div className="insight-heading">
           {this.props.heading}
 
-          <a href="/">
-            <button
-              type="button"
-              className="btn-style-thirteen white learn responsive-button2"
-            >
-              Learn More
-            </button>
-          </a>
-        </div>
-
+          <button
+            type="button"
+            className="btn-style-thirteen white learn responsive-button2"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            Learn More
+          </button>
+        </div>{" "}
+        <ContactFormSection2
+          dataAccount={this.props.dataAccount}
+          dataForm={this.props.dataForm}
+        />
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-md-4 col-xs-10">

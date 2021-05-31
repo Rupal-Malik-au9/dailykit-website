@@ -91,7 +91,10 @@ export default class Portioncontrolpage extends PureComponent {
           ]}
         />
         <Heading text={"Supported Weighing Scale"} />
-        <SpecialBanner4 />
+        <SpecialBanner4
+          dataAccount="3161173:g2o5g2c3i8"
+          dataForm="4175704:a4w7j9"
+        />
         <EndToEndFoodBusiness
           subheading={"An End-To-End Food Business Software Solution Provider"}
           heading={"You've Never Managed Your Food Business Like This Before"}

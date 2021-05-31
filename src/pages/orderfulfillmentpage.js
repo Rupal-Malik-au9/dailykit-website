@@ -107,6 +107,8 @@ export default class Orderfulfillmentpage extends PureComponent {
             "Delivery Partner Ananlytics",
           ]}
           image={["imagebox8", "imagebox9", "imagebox10"]}
+          dataAccount="3161173:g2o5g2c3i8"
+          dataForm="4175704:a4w7j9"
         />
         <EndToEndFoodBusiness
           subheading={"An End-To-End Food Business Software Solution Provider"}
