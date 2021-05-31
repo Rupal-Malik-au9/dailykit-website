@@ -15,7 +15,7 @@ export default class ContactFormSection2 extends PureComponent {
             <div class="modal-content">
               <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel">
-                  Fill the form
+                  Let us help you with some more information about us
                 </h5>
                 <button
                   type="button"
