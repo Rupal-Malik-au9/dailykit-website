@@ -7,7 +7,7 @@ import IdealProduct from "../components/onDemardStorePage/IdealProduct";
 import BannerSection4 from "../components/shared/BannerSection4";
 import BannerSection2 from "../components/shared/BannerSection2";
 import BannerSection3 from "../components/shared/BannerSection3";
-import WhyChoose from "../components/onDemardStorePage/WhyChoose";
+import SpecialBanner5 from "../components/onDemardStorePage/SpecialBanner5";
 export default class OnDemandStorepage extends PureComponent {
   render() {
     return (
@@ -78,11 +78,91 @@ export default class OnDemandStorepage extends PureComponent {
           blackbuttontext={"TELL ME MORE"}
           buttonlink={"/"}
         />
-        <WhyChoose
+        <SpecialBanner5
           heading={"Why Choose DailyKIT"}
           subpara={
             "Are You Using A Plain Old Micro-Site For Online Ordering Or Worse, Do You Not Have An Online Store? It’s Vital To The Success Of Your Business To Have A Professional Looking Onine Store."
           }
+          points={[
+            [
+              {
+                heading: "Unlimited Categories",
+                para: "Manage multiple categories for easy browsing.",
+                icon: "https://www.dailykit.org/hubfs/dailykit-assets/sell-why%20choose%20us/unlimited-categories.png",
+              },
+              {
+                heading: "SEO-Friendly Pages",
+                para: "URL-based pages for Products & Categories.",
+                icon: "https://www.dailykit.org/hubfs/dailykit-assets/sell-why%20choose%20us/seo-friendly.png",
+              },
+              {
+                heading: "Product Tags",
+                para: "Tag your products for easy filtering and discoverability.",
+                icon: "https://www.dailykit.org/hubfs/dailykit-assets/sell-why%20choose%20us/product-tags.png",
+              },
+              {
+                heading: "Product Images",
+                para: "Display Amazing Product Pictures for Higher Conversion.",
+                icon: "https://www.dailykit.org/hubfs/dailykit-assets/sell-why%20choose%20us/product-images.png",
+              },
+            ],
+            [
+              {
+                heading: "Product Description",
+                para: "Convert more via enticing product descriptions.",
+                icon: "https://www.dailykit.org/hubfs/dailykit-assets/sell-why%20choose%20us/product-description.png",
+              },
+              {
+                heading: "Social Media Sharing",
+                para: "Integrated Social Media sharing functionality on every product page.",
+                icon: "https://www.dailykit.org/hubfs/dailykit-assets/sell-why%20choose%20us/social-media-share.png",
+              },
+              {
+                heading: "Desktop Friendly",
+                para: "Don't miss out on the 20% of consumers ordering food through their laptops/desktops.",
+                icon: "https://www.dailykit.org/hubfs/dailykit-assets/sell-why%20choose%20us/desktop-friendly.png",
+              },
+              {
+                heading: "Mobile & Tab Friendly",
+                para: "Perfect experience through any browser app or in-app browsers.",
+                icon: "https://www.dailykit.org/hubfs/dailykit-assets/sell-why%20choose%20us/mobile-friendly.png",
+              },
+            ],
+            [
+              {
+                heading: "Advanced Scheduling",
+                para: "BreakFast, Lunch, Dinner or Daily/Weekly Recurring, Festive Menus.",
+                icon: "https://www.dailykit.org/hubfs/dailykit-assets/sell-why%20choose%20us/Advance%20Scheduling.svg",
+              },
+              {
+                heading: "Know your Margins",
+                para: "Control your food cost with Sales Price Recommendations.",
+                icon: "https://www.dailykit.org/hubfs/dailykit-assets/sell-why%20choose%20us/Margins.svg",
+              },
+              {
+                heading: "Precise Configuration",
+                para: "Configure Inventory, Packaging and Product Labels.",
+                icon: "https://www.dailykit.org/hubfs/dailykit-assets/sell-why%20choose%20us/Precise%20Configuration.svg",
+              },
+            ],
+            [
+              {
+                heading: "Smart Insights",
+                para: "Automated Sales Reports with conversion details.",
+                icon: "https://www.dailykit.org/hubfs/dailykit-assets/sell-why%20choose%20us/Smart%20Insights.svg",
+              },
+              {
+                heading: "Discounts & Coupons",
+                para: "Create Smart Rewards, Vouchers and more from CRM",
+                icon: "https://www.dailykit.org/hubfs/dailykit-assets/sell-why%20choose%20us/Discounts%20%26%20Coupons.svg",
+              },
+              {
+                heading: "Delivery Integrations",
+                para: "Supporting Selected Delivery Partners in your Area.",
+                icon: "https://www.dailykit.org/hubfs/dailykit-assets/sell-why%20choose%20us/Delivery%20Integrations.svg",
+              },
+            ],
+          ]}
           buttontext={"Schedule A Demo"}
           buttonlink={"/#scheduleDemo"}
         />
