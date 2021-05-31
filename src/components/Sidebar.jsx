@@ -38,7 +38,7 @@ const Sidebar = (props) => {
                 </>
               );
             })}
-{props.videourl && (
+            {props.videourl && (
               <iframe
                 src={props.videourl}
                 title="YouTube video player"

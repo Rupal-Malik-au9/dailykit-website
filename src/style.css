@@ -63,13 +63,11 @@ ul.link_container {
 
 .sidebar_link {
   color: black;
-  list-style-type: none !important;
   text-decoration: none;
   transition: all 0.4s ease-in-out;
   font-family: "Chivo", sans-serif;
   font-size: 18px;
   line-height: 2.5;
-  padding: 10px;
   font-weight: normal;
   margin-bottom: 2px;
 }
@@ -196,15 +194,17 @@ small {
   font-size: 17px;
   line-height: 1.8rem;
 }
-.footer_section li>a,.footer_section p>a{
+.footer_section li > a,
+.footer_section p > a {
   text-decoration: none;
-  color:#113d63
+  color: #113d63;
 }
 .flex-container > .footer_section > li {
   line-height: 2.5rem;
   cursor: pointer;
 }
-.footer_section li>a:hover,.footer_section p>a:hover{
+.footer_section li > a:hover,
+.footer_section p > a:hover {
   text-decoration: none;
   color: orange;
 }
@@ -1236,10 +1236,10 @@ banner-section1-description > ul,
   height: 303px;
 }
 
-.inner-form{
+.inner-form {
   position: fixed;
-  top:200px;
-  right:110px;
+  top: 200px;
+  right: 110px;
   z-index: 3;
 }
 .sidebar-contactus {
@@ -1314,10 +1314,10 @@ banner-section1-description > ul,
     width: 100%;
   }
 
-  .sidebar-contactus{
-    position:fixed;
-    top:200px;
-    right:-40px;
+  .sidebar-contactus {
+    position: fixed;
+    top: 200px;
+    right: -40px;
   }
 }
 
@@ -1325,6 +1325,4 @@ banner-section1-description > ul,
   .form-banner {
     margin-left: -3rem;
   }
-  
 }
-
