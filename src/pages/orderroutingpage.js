@@ -2,7 +2,7 @@ import React, { PureComponent } from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer.js";
 import "../style.css";
-import EndToEndFoodBusiness from "../components/marketpage/EndToEndFoodBusiness";
+import EndToEndFoodBusiness from "../components/shared/EndToEndFoodBusiness";
 import ScheduleMeetingSection1 from "../components/shared/ScheduleMeetingSection1";
 import Bluebox1 from "../components/orderpage/Bluebox1";
 import Digitalise from "../components/orderpage/Digitalise";
@@ -90,7 +90,24 @@ export default class Orderroutingpage extends PureComponent {
             "Step 3 - Once all items are packed, it's then sent to the designated assembly station where the label is scanned or marked manually & the items are assembled in their respective bags",
           ]}
         />
-        <EndToEndFoodBusiness />
+        <EndToEndFoodBusiness
+          subheading={"An End-To-End Food Business Software Solution Provider"}
+          heading={"You've Never Managed Your Food Business Like This Before"}
+          dataAccount={"3161173:g2o5g2c3i8"}
+          dataForm={"4175542:d4z0s3"}
+          points={[
+            [
+              "Recipe & Menu Engineering",
+              "Manufacturing Technology",
+              "Sales & Marketing Platform",
+            ],
+            [
+              "Delivery & Packaging Integrations",
+              "Inventory Management",
+              "Analytics",
+            ],
+          ]}
+        />
         <ScheduleMeetingSection1
           heading={"Schedule an E-Meeting"}
           image={

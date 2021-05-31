@@ -2,7 +2,7 @@ import React, { PureComponent } from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer.js";
 import "../style.css";
-import EndToEndFoodBusiness from "../components/marketpage/EndToEndFoodBusiness";
+import EndToEndFoodBusiness from "../components/shared/EndToEndFoodBusiness";
 import ScheduleMeetingSection1 from "../components/shared/ScheduleMeetingSection1";
 import BannerSection3 from "../components/shared/BannerSection3";
 import BannerSection9 from "../components/shared/BannerSection9";
@@ -88,7 +88,24 @@ export default class Packagingmanagementpage extends PureComponent {
           learn={1}
           buttonlink={"/meal-kit-guides/meal-kit-packaging"}
         />{" "}
-        <EndToEndFoodBusiness />
+        <EndToEndFoodBusiness
+          subheading={"An End-To-End Food Business Software Solution Provider"}
+          heading={"You've Never Managed Your Food Business Like This Before"}
+          dataAccount={"3161173:g2o5g2c3i8"}
+          dataForm={"4175542:d4z0s3"}
+          points={[
+            [
+              "Recipe & Menu Engineering",
+              "Manufacturing Technology",
+              "Sales & Marketing Platform",
+            ],
+            [
+              "Delivery & Packaging Integrations",
+              "Inventory Management",
+              "Analytics",
+            ],
+          ]}
+        />
         <ScheduleMeetingSection1
           heading={"Schedule an E-Meeting"}
           image={
