@@ -1,8 +1,4 @@
 import React, { PureComponent } from "react";
-import dollar from "../../assets/dollar-cycle.svg";
-import map from "../../assets/map.svg";
-import link from "../../assets/link.svg";
-import photos from "../../assets/photos.svg";
 import "../../style.css";
 export default class OptimizeKitchen extends PureComponent {
   render() {
@@ -65,7 +61,7 @@ export default class OptimizeKitchen extends PureComponent {
                       </p>
                       <img
                         alt="icon"
-                        src={link}
+                        src={point.link}
                         style={{
                           width: "90px",
                           display: "block",
@@ -100,7 +96,7 @@ export default class OptimizeKitchen extends PureComponent {
                         </p>
                         <img
                           alt="icon"
-                          src={dollar}
+                          src={point.link}
                           style={{
                             width: "90px",
                             display: "block",

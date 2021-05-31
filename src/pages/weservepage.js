@@ -8,6 +8,10 @@ import Weserve from "../components/weservepage/Weserve";
 import OptimizeKitchen from "../components/weservepage/OptimizeKitchen";
 import AnERP from "../components/weservepage/AnERP";
 import BannerSection10 from "../components/shared/BannerSection10";
+import dollar from "../assets/dollar-cycle.svg";
+import map from "../assets/map.svg";
+import link from "../assets/link.svg";
+import photos from "../assets/photos.svg";
 export default class Weservepage extends PureComponent {
   render() {
     return (
@@ -52,12 +56,12 @@ export default class Weservepage extends PureComponent {
               {
                 heading: "Trending Sales Channels",
                 para: "Leverage Trending Product Lines & Sales Channels such as On-Demand, Ready To Eat, Meal Kits, Meal Prep..Etc To Capture Maxmium Revenue.",
-                link: "/static/media/link.3828f4bb.svg",
+                link: link,
               },
               {
                 heading: "Standardized Kitchen Workflows",
                 para: "Increase Kitchen Productivity & Reduce Labor Dependency Through DailyKIT's Automated SOPs That Are Built Around Your Existing BOH Workflows.",
-                link: "/static/media/map.731b1120.svg",
+                link: map,
               },
             ],
 
@@ -65,12 +69,12 @@ export default class Weservepage extends PureComponent {
               {
                 heading: "Built For Scale",
                 para: "Whether You Operate A Single Location or Multiple Locations, A Regional or National Chain, The DailyKIT Platform Will Work For You.",
-                link: "/static/media/photos.5fa88c4a.svg",
+                link: photos,
               },
               {
                 heading: "Mitigate Risks & Achieve Stability",
                 para: "Reduce dependence on uncertain scenarios like labor, environmental crisis, pandemic or any unforeseen circumstances. DailyKIT acts like the digital copy of your food business that you can turn it on and off at will.",
-                link: "/static/media/dollar-cycle.58533bfa.svg",
+                link: dollar,
               },
             ],
           ]}
