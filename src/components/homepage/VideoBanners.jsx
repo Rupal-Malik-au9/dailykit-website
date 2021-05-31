@@ -35,20 +35,20 @@ const VideoBanner = (props) => {
         </h4>
         <br />
         <br />
-        <a href="/">
+        <a href={props.whitebuttonlink}>
           <button type="button" className="btn-style-thirteen white">
             {props.whitebuttontext}
           </button>
         </a>
         &ensp;
-        <a href="/">
+        {/* <a href="/">
           <button type="button" className="btn-style-ten purple">
             {props.purplebuttontext}
           </button>
         </a>
         <br />
         <br />
-        <div class="offer">{props.offertext}</div>
+        <div class="offer">{props.offertext}</div> */}
       </div>
     </div>
   );

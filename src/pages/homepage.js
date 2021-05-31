@@ -27,6 +27,7 @@ export default class Homepage extends PureComponent {
             "Mitigate Risk and Achieve Sustainability",
           ]}
           whitebuttontext={"Schedule Demo"}
+          whitebuttonlink={"/#scheduleDemo"}
           purplebuttontext={"Start Now With A 3-Month Trial"}
           offertext={"Available for a Limited Time Only"}
         />
