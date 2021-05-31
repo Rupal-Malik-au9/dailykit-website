@@ -28,13 +28,17 @@ export default class SpecialBanner1 extends PureComponent {
               </h2>
 
               <div className="justify-content-center mb-4">
-                <button type="button" className="weserve_button1">
-                  {this.props.button1text}
-                </button>
+                <a href={this.props.button1link}>
+                  <button type="button" className="weserve_button1">
+                    {this.props.button1text}
+                  </button>
+                </a>
                 &nbsp;&nbsp;&nbsp;
-                <button type="button" className="weserve_button2">
-                  {this.props.button2text}
-                </button>
+                <a href={this.props.button2link}>
+                  <button type="button" className="weserve_button2">
+                    {this.props.button2text}
+                  </button>
+                </a>
               </div>
             </div>
             {this.props.image ? (

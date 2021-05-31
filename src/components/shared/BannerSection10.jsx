@@ -52,10 +52,12 @@ export default class BannerSection10 extends PureComponent {
                     })}
                   </ul>
                 </div>
-              </p>{" "}
-              <button type="button" className="weserve_button1">
-                Schedule A Call
-              </button>
+              </p>
+              <a href={this.props.button1link}>
+                <button type="button" className="weserve_button1">
+                  Schedule A Call
+                </button>
+              </a>
               &nbsp;&nbsp;
               <button type="button" className="weserve_button2">
                 Learn More

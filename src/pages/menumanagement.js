@@ -49,7 +49,7 @@ export default class MenuManagementpage extends PureComponent {
         />
         <Bluebox3
           heading={"Menu Management vs Menu Engineering"}
-          buttonlink={"/"}
+          buttonlink={"#scheduledemo"}
           buttontext={"Schedule A Meeting"}
           leftpara={
             "Menu management is a general menu building excercise done periodically and ideally before the start of business each day, where you simply build & discuss your menu, as well as specials and substitutions, rather than getting into the weeds of your customer's demands and desires. Novice businesses often miss out on the importance of menu engineering."
@@ -83,7 +83,7 @@ export default class MenuManagementpage extends PureComponent {
         />
         <BannerSection6
           greenbuttontext={"Schedule A Meeting"}
-          buttonlink={"/"}
+          buttonlink={"#scheduledemo"}
           heading={"Automation is the New Mantra."}
           para={[
             "Today Nutritional & Allergen data are one of the most important factors in the consumer’s decision making process.",
@@ -99,12 +99,7 @@ export default class MenuManagementpage extends PureComponent {
           image={
             "https://static.hsappstatic.net/ui-images/static-2.377/optimized/errors/map.svg"
           }
-          imagebelowline={"The booking page is no longer active"}
-          contactline={
-            "Please contact whoever sent you this booking page link. Or email"
-          }
-          emailline={"Rishi Singhal directly at rishi@dailykit.org"}
-          emaillink={"rishi@dailykit.org"}
+          id={"scheduledemo"}
           content={[
             {
               question: "How Do You Schedule A Meeting?",

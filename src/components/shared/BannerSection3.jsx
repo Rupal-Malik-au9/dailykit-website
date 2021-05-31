@@ -43,13 +43,17 @@ export default class BannerSection3 extends PureComponent {
               <div className="justify-content-center">
                 {this.props.button2 ? (
                   <div className="justify-content-center mb-4">
-                    <button type="button" class="btn-style-thirteen black">
-                      {this.props.button2[0]}
-                    </button>
+                    <a href={this.props.button1link}>
+                      <button type="button" class="btn-style-thirteen black">
+                        {this.props.button2[0]}
+                      </button>
+                    </a>
                     &nbsp;&nbsp;&nbsp;
-                    <button type="button" class="btn-style-thirteen white">
-                      {this.props.button2[1]}
-                    </button>
+                    <a href={this.props.button2link}>
+                      <button type="button" class="btn-style-thirteen white">
+                        {this.props.button2[1]}
+                      </button>
+                    </a>
                   </div>
                 ) : (
                   <div class="form-banner">

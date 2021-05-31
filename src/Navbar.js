@@ -486,7 +486,7 @@ export default class Navbar extends PureComponent {
                     marginLeft: "0.7rem",
                     fontSize: "14px",
                   }}
-                  href="/#scheduleDemo"
+                  href="#scheduledemo"
                 >
                   Schedule Demo
                 </a>

@@ -27,7 +27,7 @@ export default class Homepage extends PureComponent {
             "Mitigate Risk and Achieve Sustainability",
           ]}
           whitebuttontext={"Schedule Demo"}
-          whitebuttonlink={"/#scheduleDemo"}
+          whitebuttonlink={"#scheduledemo"}
           purplebuttontext={"Start Now With A 3-Month Trial"}
           offertext={"Available for a Limited Time Only"}
         />
@@ -219,7 +219,7 @@ export default class Homepage extends PureComponent {
             "We offer very attractive incentives to anyone who wishes to Resellour platform to prospective clients anywhere in the world Click on the button below to talk to us about this opputunity."
           }
           blackbuttontext={"Schedule A meeting"}
-          buttonlink={"/#scheduleDemo"}
+          buttonlink={"#scheduledemo"}
         />
 
         <ScheduleMeetingSection1
@@ -227,12 +227,7 @@ export default class Homepage extends PureComponent {
           image={
             "https://static.hsappstatic.net/ui-images/static-2.377/optimized/errors/map.svg"
           }
-          imagebelowline={"The booking page is no longer active"}
-          contactline={
-            "Please contact whoever sent you this booking page link. Or email"
-          }
-          emailline={"Rishi Singhal directly at rishi@dailykit.org"}
-          emaillink={"rishi@dailykit.org"}
+          id={"scheduledemo"}
           content={[
             {
               question: "How Do You Schedule A Meeting?",

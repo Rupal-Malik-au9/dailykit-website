@@ -21,7 +21,7 @@ export default class Weservepage extends PureComponent {
           }
           button1text={"Schedule A Call"}
           button2text={"Learn More"}
-          button1link={"/"}
+          button1link={"#scheduledemo"}
           button2link={"/"}
           smallimage={
             "https://www.dailykit.org/hubfs/osaas/images/icons/chat-icon.png"
@@ -50,6 +50,7 @@ export default class Weservepage extends PureComponent {
             "Mitigate Risk & Achieve Sustainability",
           ]}
           id="supermarkets"
+          button1link={"#scheduledemo"}
         />
         <BannerSection10
           subheading={"For Cloud Kitchens"}
@@ -63,20 +64,26 @@ export default class Weservepage extends PureComponent {
           list1={["Incorporate Trending Sales Channels", "Optimize Operations"]}
           list2={["Multiple Brands - One Solution", "Built for The Future"]}
           id="restaurants"
+          button1link={"#scheduledemo"}
         />
-        <AnERP />
+        <AnERP
+          heading={"An ERP for Large Enterprises"}
+          rightImage={
+            "https://www.dailykit.org/hubfs/dailykit-assets/enterprise-solution@2x.png"
+          }
+          para={
+            "Easily address the complexities of large food manufacturers and distributors while dealing with high transaction volumes and multiple locations."
+          }
+          button1text={"Schedule A Meeting"}
+          button1link={"#scheduledemo"}
+        />
 
         <ScheduleMeetingSection1
           heading={"Schedule an E-Meeting"}
           image={
             "https://static.hsappstatic.net/ui-images/static-2.377/optimized/errors/map.svg"
           }
-          imagebelowline={"The booking page is no longer active"}
-          contactline={
-            "Please contact whoever sent you this booking page link. Or email"
-          }
-          emailline={"Rishi Singhal directly at rishi@dailykit.org"}
-          emaillink={"rishi@dailykit.org"}
+          id={"scheduledemo"}
           content={[
             {
               question: "How Do You Schedule A Meeting?",

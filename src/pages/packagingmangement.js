@@ -111,12 +111,7 @@ export default class Packagingmanagementpage extends PureComponent {
           image={
             "https://static.hsappstatic.net/ui-images/static-2.377/optimized/errors/map.svg"
           }
-          imagebelowline={"The booking page is no longer active"}
-          contactline={
-            "Please contact whoever sent you this booking page link. Or email"
-          }
-          emailline={"Rishi Singhal directly at rishi@dailykit.org"}
-          emaillink={"rishi@dailykit.org"}
+          id={"scheduledemo"}
           content={[
             {
               question: "How Do You Schedule A Meeting?",

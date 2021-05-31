@@ -23,8 +23,10 @@ export class Bakeries extends PureComponent {
   render() {
     return (
       <div>
-  <FormSection1 dataAccount="3161173:g2o5g2c3i8"
-  dataForm="4175704:a4w7j9"/>
+        <FormSection1
+          dataAccount="3161173:g2o5g2c3i8"
+          dataForm="4175704:a4w7j9"
+        />
 
         <div className="head">
           <GreenHeading text="Bakers can get the most out ofMeal Kits by enjoying" />
