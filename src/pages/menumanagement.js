@@ -23,7 +23,6 @@ export default class MenuManagementpage extends PureComponent {
         />
         <BannerSection6
           greenbuttontext={"Learn More"}
-          buttonlink={"/do-more/Recipe-Provider"}
           heading={"Personalization Done Right"}
           para={[
             "To Eat or To Cook? With DailyKIT you win either way, by offering your customers the choice of Ready-to-Eat or Ready-to-Cook",
@@ -34,10 +33,11 @@ export default class MenuManagementpage extends PureComponent {
           leftImage={
             "https://www.dailykit.org/hubfs/dailykit-assets/menu/personalization.gif"
           }
+          dataAccount="3161173:g2o5g2c3i8"
+          dataForm={"4175704:a4w7j9"}
         />{" "}
         <BannerSection6
           greenbuttontext={"Learn More"}
-          buttonlink={"/meal-kit-guides/how-to-decide-your-meal-kits"}
           heading={"Give Life To Your Menu"}
           para={[
             "Gone are the days of The Static Menu",
@@ -46,8 +46,8 @@ export default class MenuManagementpage extends PureComponent {
           leftImage={
             "https://www.dailykit.org/hubfs/dailykit-assets/menu/give-life-to-your-menu2.gif"
           }
-          dataAccount={"3161173:g2o5g2c3i8"}
-          dataForm={"4175542:d4z0s3"}
+          dataAccount="3161173:g2o5g2c3i8"
+          dataForm={"4175704:a4w7j9"}
         />
         <Bluebox3
           heading={"Menu Management vs Menu Engineering"}
@@ -62,7 +62,6 @@ export default class MenuManagementpage extends PureComponent {
         />
         <BannerSection6
           greenbuttontext={"Learn More"}
-          buttonlink={"/"}
           heading={"How Intimately Do You Know Your Food Costs?"}
           para={[
             "It’s impossible to optimize business profitablity without having a detailed handle on your Food Costs.",
@@ -71,12 +70,11 @@ export default class MenuManagementpage extends PureComponent {
           rightImage={
             "https://www.dailykit.org/hubfs/dailykit-assets/menu/Food-cost.png"
           }
-          dataAccount={"3161173:g2o5g2c3i8"}
-          dataForm={"4175542:d4z0s3"}
+          dataAccount="3161173:g2o5g2c3i8"
+          dataForm={"4175704:a4w7j9"}
         />
         <BannerSection6
           greenbuttontext={"Learn More"}
-          buttonlink={"/"}
           heading={"Zero In On Product Pricing."}
           para={[
             "No more back-of-the-envelope math. No more calculators and excel sheets. With DailyKIT’s Intelligent Product Pricing, you can easily set target food cost %'s and get a suggested price range that falls within your targeted food cost. With minimal effort and easy decision making, set your menu prices like the experts.",
@@ -84,11 +82,10 @@ export default class MenuManagementpage extends PureComponent {
           rightImage={
             "https://www.dailykit.org/hubfs/dailykit-assets/menu/product-pricing.png"
           }
-          dataAccount={"3161173:g2o5g2c3i8"}
-          dataForm={"4175542:d4z0s3"}
+          dataAccount="3161173:g2o5g2c3i8"
+          dataForm={"4175704:a4w7j9"}
         />
         <BannerSection6
-          greenbuttontext={"Schedule A Meeting"}
           buttonlink={"#scheduledemo"}
           heading={"Automation is the New Mantra."}
           para={[
@@ -99,8 +96,6 @@ export default class MenuManagementpage extends PureComponent {
             "https://www.dailykit.org/hubfs/dailykit-assets/menu/automation.png"
           }
           buttontext={"Schedule A Meeting"}
-          dataAccount={"3161173:g2o5g2c3i8"}
-          dataForm={"4175542:d4z0s3"}
         />
         <ScheduleMeetingSection1
           heading={"Schedule an E-Meeting"}

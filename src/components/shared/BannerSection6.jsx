@@ -41,18 +41,22 @@ export default class BannerSection6 extends PureComponent {
                     </p>
                   );
                 })}
-                {this.props.buttonlink && (
+                {this.props.buttonlink ? (
+                  <a href={this.props.buttonlink}>
+                    <button type="button" className="btn-style-thirteen green">
+                      {this.props.buttontext}
+                    </button>
+                  </a>
+                ) : (
                   <>
-                    {this.props.greenbuttontext && (
-                      <button
-                        type="button"
-                        className="btn-style-thirteen green"
-                        data-bs-toggle="modal"
-                        data-bs-target="#exampleModal"
-                      >
-                        {this.props.greenbuttontext}
-                      </button>
-                    )}
+                    <button
+                      type="button"
+                      className="btn-style-thirteen green"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal"
+                    >
+                      {this.props.greenbuttontext}
+                    </button>
                   </>
                 )}
               </p>
