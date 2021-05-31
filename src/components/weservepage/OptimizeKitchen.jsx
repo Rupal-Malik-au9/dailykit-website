@@ -65,7 +65,7 @@ export default class OptimizeKitchen extends PureComponent {
                       </p>
                       <img
                         alt="icon"
-                        src={point.link}
+                        src={link}
                         style={{
                           width: "90px",
                           display: "block",
@@ -100,7 +100,7 @@ export default class OptimizeKitchen extends PureComponent {
                         </p>
                         <img
                           alt="icon"
-                          src={point.link}
+                          src={dollar}
                           style={{
                             width: "90px",
                             display: "block",
