@@ -65,7 +65,7 @@ export default class Marketpage extends PureComponent {
           }
           points={[
             ["Supercharge Word of Mouth", "Drive repeated growth"],
-            ["Get more customers from your customers", "Keep them coming back"],
+            ["Keep them coming back", "Get more customers from your customers"],
           ]}
           rightimage={
             "https://www.dailykit.org/hubfs/dailykit-assets/marketing-overview/Your%20tryst%20with%20virality.png"
