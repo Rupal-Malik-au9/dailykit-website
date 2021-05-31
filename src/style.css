@@ -1238,9 +1238,10 @@ banner-section1-description > ul,
 
 .inner-form {
   position: fixed;
-  top: 200px;
-  right: 110px;
+  top: 140px;
+  right: 70px;
   z-index: 3;
+  width: 250px;
 }
 .sidebar-contactus {
   display: none;
