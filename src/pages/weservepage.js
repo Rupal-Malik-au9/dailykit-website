@@ -33,7 +33,46 @@ export default class Weservepage extends PureComponent {
           }
         />
         <Weserve />
-        <OptimizeKitchen />
+        <OptimizeKitchen
+          subheading={"For Restaurants"}
+          heading={"Optimize Kitchen Workflows & Juice New Sales Channels."}
+          para={
+            "An Innovative Omni-Channel Solution That Monetizes Food Trends with End-To-End Kitchen Workflows & Operations Management Software"
+          }
+          button1text={"Schedule A Call"}
+          button1link={"#scheduledemo"}
+          button2text={"Learn More"}
+          image={
+            "https://www.dailykit.org/hubfs/dailykit-assets/restaurant-chef-fold@2x.png"
+          }
+          points={[
+            [
+              {
+                heading: "Trending Sales Channels",
+                para: "Leverage Trending Product Lines & Sales Channels such as On-Demand, Ready To Eat, Meal Kits, Meal Prep..Etc To Capture Maxmium Revenue.",
+                link: "/static/media/link.3828f4bb.svg",
+              },
+              {
+                heading: "Standardized Kitchen Workflows",
+                para: "Increase Kitchen Productivity & Reduce Labor Dependency Through DailyKIT's Automated SOPs That Are Built Around Your Existing BOH Workflows.",
+                link: "/static/media/map.731b1120.svg",
+              },
+            ],
+
+            [
+              {
+                heading: "Built For Scale",
+                para: "Whether You Operate A Single Location or Multiple Locations, A Regional or National Chain, The DailyKIT Platform Will Work For You.",
+                link: "/static/media/photos.5fa88c4a.svg",
+              },
+              {
+                heading: "Mitigate Risks & Achieve Stability",
+                para: "Reduce dependence on uncertain scenarios like labor, environmental crisis, pandemic or any unforeseen circumstances. DailyKIT acts like the digital copy of your food business that you can turn it on and off at will.",
+                link: "/static/media/dollar-cycle.58533bfa.svg",
+              },
+            ],
+          ]}
+        />
         <BannerSection10
           subheading={"For Supermarkets"}
           heading={"Meet Rapidly Evolving Consumer Needs With Ease"}
@@ -51,6 +90,8 @@ export default class Weservepage extends PureComponent {
           ]}
           id="supermarkets"
           button1link={"#scheduledemo"}
+          dataAccount="3161173:g2o5g2c3i8"
+          dataForm="4175704:a4w7j9"
         />
         <BannerSection10
           subheading={"For Cloud Kitchens"}
