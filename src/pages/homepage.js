@@ -91,9 +91,7 @@ export default class Homepage extends PureComponent {
             "https://www.dailykit.org/hubfs/dailykit-assets/homepage/Points.png",
           ]}
           heading={"Gamify Your Marketing"}
-          buttonlink={
-            "/meal-kit-guides/meal-kit-guides/how-to-promote-your-meal-kits"
-          }
+          buttonlink={"/market"}
           bluesubheading={"DailyKIT Marketing Hub"}
           greenbuttontext={"TELL ME MORE"}
           description="Let Your Imaginations Run Wild. Convert More with Advanced, Multi-Conditional Discounting Tools ."
